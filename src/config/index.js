@@ -17,7 +17,7 @@ const developement = {
       service: "gmail",
       auth:{
             user: 'amitwebdev2019@gmail.com',
-            pass: '8888565473'
+            pass: ''
            } ,
       tls: {
             rejectUnauthorized: false
@@ -40,8 +40,8 @@ const production = {
     // for mysql
   dbName : '5GlSHutQPo' ,
   host   : 'remotemysql.com' ,
-  dbUser : '5GlSHutQPo',
-  dbPass : 'Y6E5xeC1bL',
+  dbUser : '',
+  dbPass : '',
 
     // for nodemailer
   nodemailerOptions:{
