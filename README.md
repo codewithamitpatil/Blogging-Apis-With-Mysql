@@ -55,6 +55,13 @@ I had do clean code with clean folder structure </br>
 [Postman api documentation](https://documenter.getpostman.com/view/11617094/UVJYKzQT)
 
 
+## Er Diagram
+
+![blog](https://user-images.githubusercontent.com/62344675/143040096-ba2773cf-5baa-4b83-b385-0f8a7fb028b9.png)
+
+
+
+
 ## Features
 
 
@@ -68,7 +75,7 @@ I had do clean code with clean folder structure </br>
   - Fetch Author With Id
 
 > Post
-  - Add New Post
+  - Add New Post (It will send email notification to user on post creation)
   - Update Post
   - Remove Post
   - Fetch All Post By Author Id
