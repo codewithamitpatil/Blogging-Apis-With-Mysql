@@ -10,8 +10,7 @@ const { nodemailerOptions ,adminMail } = require('../config');
 // module exports
 module.exports = SendMail = async(To,Subject,title,description,createdAt)=>{
 
-   const transport = nodemailer.createTransport(nodemailerOptions);
-
+  const transport = nodemailer.createTransport(nodemailerOptions);
 
  let template = `
  
@@ -61,7 +60,6 @@ tr:nth-child(even) {
 
 
  `;
-
 
     transport.sendMail({
         from: adminMail,
