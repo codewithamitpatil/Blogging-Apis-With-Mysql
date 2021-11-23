@@ -67,7 +67,7 @@ Create : async(req,res,next)=>{
 
     const post = await Post.create(valData);
 
-   // await mailSend(authIdCheck.email,' Post is sent to all other authors SuccessFully',post.title,post.description,post.createdAt);
+    await mailSend(authIdCheck.email,' Post is sent to all other authors SuccessFully',post.title,post.description,post.createdAt);
     res.json({ status:200,message:'Post Created SuccessFully'});
 
     span.log({post});
